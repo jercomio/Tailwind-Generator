@@ -6,7 +6,6 @@ const form = document.querySelector('#generate-form') as HTMLFormElement;
 const iframe = document.querySelector('#generated-code') as HTMLIFrameElement;
 const fieldset = form.querySelector('fieldset') as HTMLFieldSetElement;
 
-
 let messages: Array<ChatCompletionMessageParam> = [
   {
     role: 'system',
